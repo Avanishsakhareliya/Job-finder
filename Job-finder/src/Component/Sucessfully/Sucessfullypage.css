@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.sucessfully .container {
+    padding: 0px 47px;
+}
+
+.sucessfully {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.sucessfully-wrapper {
+    text-align: center;
+    position: relative;
+}
+
+.sucessfully-wrapper .content {
+    color: #1D4354;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 21.94px;
+    letter-spacing: -0.3px;
+}
+.sucessfully-wrapper .content p {
+    margin-bottom: 20px;
+}
+
+.sucessfully-wrapper img {
+    margin: 10px 0px;
+}
+
+.sucessfully-wrapper .check-button {
+    position: relative;
+    width: 100%;
+    max-width: 342px;
+    margin: 0px auto 60px;
+}
+
+.sucessfully-wrapper .check-button a {
+    display: inline-block;
+    padding: 25px 20px;
+    background: #D7E6DA;
+    border-radius: 20px;
+    color: #1D4354;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .sucessfully .container {
+        padding: 0px 20px;
+    }
+    .sucessfully {
+        padding-bottom: 0px;
+    }
+
+    .sucessfully-wrapper .check-button {
+        margin: 0px !important;
+    }
+}

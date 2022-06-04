@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.profile-details-section .profile-left-section {
+    width: 35%;
+    background: #ffffff;
+    padding: 0px 30px 10px;
+    margin-bottom: 29px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+}
+.profile-details-section .profile-right-section {
+    width: calc(65% - 28px);
+    margin-left: 28px;
+}
+.profile-details-section .gallary-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -20px;
+}
+.profile-details-section .gallary-section .image-item {
+    width: 33.33%;
+    margin-bottom: 29px;
+    padding: 0px 20px;
+}
+.profile-details-section .gallary-section .image-item img {
+    width: 100%;
+}
+.achievement-section textarea {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    border: none;
+    outline: none;
+}
+.profile-details-section {
+    padding: 50px;
+}
+.profile-details-section .gallary-section {
+    position: relative;
+    margin: 19px 0px 0px;
+}
+.profile-details-section  .profile-left-section .profile-img {
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    position: relative;
+}
+.profile-details-section  .profile-left-section .profile-img .icon-profile {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -11px;
+}
+.profile-details-section  .profile-left-section .name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-details-section  .profile-left-section .cv-btn {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+
+.profile-details-section  .profile-left-section .cv-btn a {
+    display: inline-block;
+    width: 233px;
+    height: 34px;
+    border: 0.5px solid #1D4354;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D4354;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-details-section .profile-left-section h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1D4354;
+    margin-bottom: 16px;
+}
+
+.profile-details-section .select-field {    
+    display: flex;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.profile-details-section .select-field .select-field-item { 
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.profile-details-section .select-field .select-field-item input[type=checkbox] { 
+   margin-right: 9px;
+}
+
+.profile-details-section .select-field .select-field-item label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1D4354;
+    cursor: pointer;  
+}
+
+.profile-details-section .inner-name { 
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    margin-bottom: 20px;
+}
+
+.profile-details-section .achievement-button {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px
+}
+
+.profile-details-section .achievement-button a {
+    max-width: 363px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #1D4354;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D4354;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+}
+
+.profile-details-section .select-field .select-field-item.other {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) { 
+    .profile-details-section {
+        padding: 20px 0px;
+    }
+    .profile-left-section, .profile-right-section {
+        width: 100% !important;
+        margin: 0px 0px 30px!important;
+    }
+    .profile-right-section {
+        margin: 0px !important;
+    }
+    .profile-details-section .profile-left-section .profile-img {
+        margin-top: 20px;
+    }
+    .profile-details-section .profile-left-section {
+        padding: 0px 20px 10px;
+    }
+    .achievement-section textarea {
+        padding: 20px;
+    }
+    .achievement-section textarea {
+        font-size: 14px;
+    }
+    .profile-details-section .gallary-section .row {
+       margin: 0px -10px;
+    }
+    .profile-details-section .gallary-section .image-item {
+        padding: 0px 5px;
+    }
+}
+
+.sel{
+    width: 209px;
+    height: 30px;
+    border: 0.5px solid #1D4354;
+    /* box-sizing: border-box; */
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D4354;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#num{
+    width: 70%;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: #A4A4A4;
+    padding: 10px 26px;
+    outline: none !important;
+}

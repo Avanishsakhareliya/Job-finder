@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+    .main-map-view {
+       position: relative;
+       margin: 21px 0px;
+    }
+    .main-map-view .map-left-view {
+        width: 35%;
+        padding-right: 18px;
+    }
+    .main-map-view .map-right-view {
+        width: 65%;
+    }
+    .main-map-view .map-left-view .image-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border: 1px solid #D3D3D3;
+        border-radius: 30.8029px;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .main-map-view .map-left-view .image-content:last-child {
+        margin-bottom: 0px;
+    }
+    .main-map-view .map-left-view .image-content .image-section {
+        width: 40%;
+    }
+    .main-map-view .map-left-view .image-content .content-section {
+        width: 60%;
+        position: relative;
+    }
+    .main-map-view .content-section h2 {
+        color: #2D2D2D !important;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13.52px;
+        letter-spacing: -0.18px;
+        margin-bottom: 9px;
+    }
+    .main-map-view .content-section a{
+        color: #2D2D2D !important;
+    }
+    .main-map-view .content-section .company-name {
+        color: #1D4354;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13.52px;
+        letter-spacing: -0.18px;
+        margin-bottom: 12px;
+    }
+    .main-map-view .content-section .location {
+        font-family: 'Montserrat', sans-serif;
+
+        font-weight: 500;
+        color: #2D2D2D;
+        font-size: 8px;
+        line-height: 9.76px;
+        letter-spacing: -0.18px;
+        margin-bottom: 12px;
+    }
+    .main-map-view .content-section p.description {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: #2D2D2D;
+        line-height: 9.76px;
+        letter-spacing: -0.18px;
+        font-size: 8.01px;
+        margin-bottom: 14px;
+    }
+    .main-map-view .content-section .day {
+        font-family: 'Montserrat', sans-serif;
+
+        font-weight: 400;
+        color: #2D2D2D;
+        font-size: 8.62px;
+        line-height: 10.51px;
+        letter-spacing: -0.18px;
+    }
+    .main-map-view .content-section .brand-logo {
+        position: absolute;
+        left: -42px;
+        top: 48px;
+    }
+    .main-map-view .content-section .content {
+         padding: 18px 14px 18px 45px;
+    }
+    .map-left-view .image-section img {
+        object-fit: cover;
+        width: 100%;
+        display: flex;
+        left: -5px;
+        position: relative;
+    }
+    .map-left-view .bottom-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main-map-view .content-section p.description {
+        max-width: 147px;
+        overflow: hidden;
+    height: 49px;
+    }
+    
+    .map-right-view .map-inner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .map-right-view .map-inner iframe {
+        height: 100%;
+    }
+    
+    .border-bottom {
+        height: 62px;
+        background: #1D4354;
+        width: 100%;
+    }
+
+    .svg-icon {
+        cursor: pointer;
+    }
+
+    .main-map-view .gm-style .gm-style-iw-c {
+        padding: 20px 30px 16px !important;
+        border-radius: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #FFFFFF;
+        border: 1px solid #D3D3D3;
+        max-width: 300px !important;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .main-map-view .gm-ui-hover-effect {
+        top: -20px !important;
+        right: 5px !important;
+        width: 25px !important;
+        height: 25px !important;
+        background: #FFFFFF !important;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%);
+        border-radius: 100%;
+        opacity: 1 !important;
+        border: none !important;
+        outline: none !important;
+    }
+ 
+    .main-map-view .gm-ui-hover-effect span {
+        margin: 6px !important;
+    }
+
+    .main-map-view .gm-style-iw-d {
+        padding: 0px !important;
+    }
+
+    .detailCard .name {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.3px;
+        font-family: 'Montserrat', sans-serif;
+        color: #2D2D2D;
+        
+    }
+    .detailCard .role-name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: -0.3px;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 8px;
+        color: #1D4354;
+        display: block;
+        margin-top: 6px;
+    }
+
+    .detailCard .location{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.3px;
+        color: #2D2D2D;
+    }   
+
+    .detailCard .adrress {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: -0.3px;     
+        margin-bottom: 10px;
+        color: #2D2D2D;
+        display: block;
+    }   
+
+    .detailCard .date {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.3px;
+        color: #2D2D2D;
+    }
+
+    .ant-modal-root .ant-modal-body {
+        padding: 5px 5px 0px !important;
+    }
+
+    .ant-modal-root .ant-modal-close-x {
+        background: #fff !important;
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 100% !important;
+        top: -16px !important;
+        position: relative !important;
+        left: 16px !important;
+    }
+
+    .ant-modal-root .anticon-close {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        position: relative;
+        top: 8px !important;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .main-map-view .row {
+            flex-wrap: wrap;
+            display: flex;
+        }
+        .main-map-view .map-left-view {
+            width: 100%;
+            padding-right: 0px;
+            margin-bottom: 20px;
+        }
+        .main-map-view .map-right-view {
+            width: 100%;
+        }
+    }

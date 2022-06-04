@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+#root {
+    background: #E5E5E5;
+}
+
+.back-link {
+    padding-top: 30px;
+}
+
+.job-details-wrapper h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    color: #1D4354;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: -0.3px;
+}
+
+.job-details .container {
+    padding: 0px 38px;
+}
+
+.job-details .job-details-wrapper {
+    max-width: 1111px;
+    margin: 0px auto 60px;
+}
+
+.job-details .job-content-wrapper {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 26px 24px 26px 57px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.job-details .brand-logo {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -65px;
+}
+
+.job-open-offer.job-details .left-section {
+    width: 62.5%;
+    padding-right: 36px;
+}
+.job-open-offer.job-details .right-section {
+    width: 37.5%;
+}
+
+.job-details .social-icon {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.job-details .social-icon li { 
+    background: #F3F3F3;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    filter: drop-shadow(0px 4px 16px rgba(33, 33, 33, 0.16));
+}
+.job-details .social-icon li:last-child { 
+    margin-right: 0px;
+}
+
+.job-details .row {
+    z-index: 2;
+    position: relative;
+}
+.job-details .left-section .name {
+    font-weight: 600;
+    color: #1D4354;
+    font-size: 24px;
+    line-height: 29.38px;  
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+    margin-bottom: 22px;
+}
+
+.job-details .left-section .company-name {
+    font-weight: 700;
+    color: #1D4354;
+    font-size: 18.75px;
+    line-height: 22.85px;  
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+    margin-bottom: 22px;
+}
+
+.job-details .left-section .location,.job-details .left-section .job-type,.job-details .left-section .salary {
+    font-weight: 700;
+    color: #1D4354;
+    font-size: 17.41px;
+    line-height: 21.22px;  
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+    margin-bottom: 22px;
+}
+
+.job-details .left-section .job-type {
+    margin-bottom: 30px;
+}
+
+.job-details .left-section .salary {
+    margin-bottom: 40px;
+}
+
+.job-details .left-section .description {
+    font-weight: 500;
+    color: #1D4354;
+    font-size: 13.39px;
+    line-height: 16.32px;  
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.25px;
+    max-width: 600px;
+}
+
+.job-details .left-section .description p {
+    margin-bottom: 30px;
+}
+
+.job-details .apply-button { 
+    display: inline-block;
+    width: 100%;
+    max-width: 342px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-details .apply-button a {
+    padding: 22px 20px;
+    background: #D7E6DA;
+    border-radius: 20px;
+    color: #1D4354;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    width: 100%;
+    position: relative;
+    border: none;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+    .job-open-offer.job-details .job-content-wrapper:last-child {
+        margin-top: 80px;
+    }
+    .job-open-offer.job-details .job-details-wrapper {
+        margin-bottom: 0px;
+    }
+    .job-open-offer.job-details .job-content-wrapper {
+        padding: 50px 20px 20px !important;
+    }
+    .job-open-offer.job-details .apply-button a, .job-open-offer.job-details .decline-offer a {
+        padding: 14px 20px !important;
+    }
+    .job-open-offer.job-details .container {
+        padding: 0px 20px !important;
+    }
+    .job-details .map iframe {
+        width: 100%;
+        height: 600;
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .job-open-offer.job-details .left-section {
+        width: 100% !important;
+        padding-right: 0px !important;
+    }
+    .job-open-offer.job-details .right-section {
+        width: 100% !important;
+        padding-right: 0px !important;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .job-details.job-open-offer {
+        padding-bottom: 0px !important;
+    }
+    .brand-logo img {
+        max-width: 32%;
+    }
+    .job-details .brand-logo {
+        top: -45px !important;
+    }
+    .job-open-offer.job-details .job-content-wrapper:last-child {
+        margin-top: 80px !important;
+    }
+    .job-open-offer.job-details .left-section .name {
+        margin-bottom: 8px !important;
+    }
+    .job-open-offer.job-details .left-section .company-name {
+        margin-bottom: 8px !important;
+    }
+    .job-open-offer.job-details .left-section .location, .job-open-offer.job-details .left-section .job-type, .job-open-offer.job-details .left-section .salary {
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+    .job-open-offer.job-details .left-section .job-type {
+        margin-bottom: 12px !important;
+    }
+    .job-open-offer.job-details .left-section .salary {
+        margin-bottom: 16px !important;
+    }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.privacy-page {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.privacy-page .container {
+    padding: 0px 47px;
+}
+
+.privacy-page .privacy-wrapper {
+    max-width: 1111px;
+    margin: 0px auto;
+}
+
+.privacy-page .privacy-inner {
+    background: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 26px 40px;
+    height: 370px;
+}
+
+.privacy-page .privacy-wrapper h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    color: #1D4354;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: -0.3px;
+}
+
+.privacy-page .form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.privacy-page .form-field .name {
+    width:  38%;
+    display: flex;
+    align-items: center;
+    color: #1D4354;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18.29px;
+    letter-spacing: -0.3px;
+}
+
+.privacy-page .form-field-item label {
+    color: #1D4354;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 14.63px;
+    letter-spacing: -0.3px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.privacy-page .form-field .name img {
+    margin-right: 22px;
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+}
+
+.privacy-page .form-field .form-field-item {
+    width:  26%;
+    display: flex;
+    align-items: center;
+}
+
+.privacy-page .form-field .form-field-item:last-child {
+    width:  10%;
+}
+
+@media only screen and (max-width: 767px) { 
+    .privacy-page .container {
+        padding: 0px 20px;
+    }
+    .privacy-page .privacy-inner {
+        padding: 26px 20px 10px;
+    }
+    .privacy-page .form-field .name {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .privacy-page .form-field {
+        flex-wrap: wrap;
+    }
+    .privacy-page .form-field .form-field-item {
+        width: 49%;
+    }
+    .privacy-page .privacy-inner {
+        height: auto;
+    }
+    .privacy-page {
+        padding-bottom: 50px;
+    }
+    .privacy-page .form-field .name img {
+        margin-right: 10px;
+        width: 10%;
+    }
+    input[type=checkbox] {
+        cursor: pointer;
+        width: 14px;
+        height: 14px;
+    }
+    .privacy-page .form-field-item label {
+        width: 80%;
+    }
+    .privacy-page .form-field .form-field-item:last-child {
+        width: 50%;
+    }
+    .privacy-page .form-field {
+        margin-bottom: 14px;
+    }
+    .privacy-page .form-field .form-field-item {
+        margin-bottom: 10px;
+    }
+    .privacy-page .form-field .name {
+        font-size: 14px;
+    }
+}
+

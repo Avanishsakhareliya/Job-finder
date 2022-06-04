@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.main-section {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.header .header-section {
+    background: #1D4354;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 15.85px;
+    font-weight: 500;
+    padding-right: 44px;
+}
+.menu ul li:last-child a {
+    padding-right: 0px;
+}
+.header-section .row {
+    align-items: center;
+}
+.header-section .logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.header-section .menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-section .header-icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-section .header-icon .user{
+    margin: 0px 22px;
+}
+
+.mobile-header-icon {
+    display: none;
+}
+
+.mobile-header, .mobile-top-header {
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .menu ul li a {
+        padding-right: 18px;
+    }
+    .header .header-section {
+        padding: 20px 0px;
+    }
+    .header-section .header-icon .user {
+        margin: 0px 10px;
+    }
+    .header-section {
+        padding: 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-section .logo {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-section .menu {
+        display: none;
+    }
+    .header-section .header-icon {
+        display: none;
+    }
+    .mobile-top-header {
+        display: block;
+    }
+    .search-name {
+        color: #fff;
+    }
+    .menu ul {
+        width: 100%;
+        margin-bottom: 0px;
+        justify-content: space-between;
+    }
+    .mobile-header {
+        width: 100%; 
+        position: fixed;   
+    }
+    .menu ul li a {
+        color: #000000;
+        font-size: 12px;
+    }
+    .mobile-header {
+        background: #fff;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        text-transform: uppercase;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        z-index: 9999;
+    }
+    .main-section .search {
+        display: none;
+    }
+    .border-bottom {
+        display: none;
+    }
+    .mobile-header-icon {
+       display: block;
+    }
+    .mobile-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-header li a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-header li img {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 543px) {
+    .menu ul li a {
+        padding-right: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .menu ul li a {
+        padding-right: 12px;
+        font-size: 10px;
+    }
+    .mobile-header {
+        padding: 15px 10px;
+    }
+}
+
+.user .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:-33px;
+    /* margin-top: 5px; */
+    /* top:33px; */
+  }
+  
+ .user .dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .header-section .header-icon .user {
+    position: relative;
+  }
+
+  
+ .user .dropdown-content a:hover {background-color: #ddd;}
+  
+ .user:hover .dropdown-content {display: block;}
+
+
+ .menu-icon .dropdown-content-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 106px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left:-33px;
+    /* margin-top: 5px; */
+    /* top:33px; */
+  }
+  
+ .menu-icon .dropdown-content-menu a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .header-section .header-icon .menu-icon {
+    position: relative;
+  }
+
+  
+ .menu-icon .dropdown-content-menu a:hover {background-color: #ddd;}
+  
+ .menu-icon:hover .dropdown-content-menu {display: block;}

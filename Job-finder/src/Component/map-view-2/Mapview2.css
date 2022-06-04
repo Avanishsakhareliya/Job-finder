@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.main-map-view.map-view-list {
+    position: relative;
+    margin: 21px 0px;
+ }
+
+ .map-view-list .container {
+     padding: 0px 97px;
+ }
+
+ .main-map-view.map-view-list .map-left-view {
+     width: 100%;
+     padding-right: 18px;
+ }
+ .main-map-view.map-view-list .map-left-view .image-content {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     border: 1px solid #D3D3D3;
+     border-radius: 30.8029px;
+     margin-bottom: 26px;
+ }
+ .main-map-view.map-view-list .map-left-view .image-content:last-child {
+     margin-bottom: 0px;
+ }
+ .main-map-view.map-view-list .map-left-view .image-content .image-section {
+     width: 40%;
+ }
+ .main-map-view.map-view-list .map-left-view .image-content .content-section {
+     width: 60%;
+     position: relative;
+ }
+ .main-map-view.map-view-list .content-section h2 {
+     color: #2D2D2D;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 21.94px;
+     letter-spacing: -0.18px;
+     margin-bottom: 9px;
+ }
+ .main-map-view.map-view-list .content-section .company-name {
+     color: #1D4354;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 17.07px;
+     letter-spacing: -0.18px;
+     margin-bottom: 12px;
+ }
+ .main-map-view.map-view-list .content-section .location {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     color: #2D2D2D;
+     font-size: 13px;
+     line-height: 15.85px;
+     letter-spacing: -0.18px;
+     margin-bottom: 17px;
+ }
+ .main-map-view.map-view-list .content-section p.description {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     color: #2D2D2D;
+     line-height: 12.19px;
+     letter-spacing: -0.18px;
+     font-size: 10px;
+     margin-bottom: 18px;
+     max-width: 626px;
+ }
+ .main-map-view.map-view-list .content-section .day {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     color: #2D2D2D;
+     line-height: 12.19px;
+     letter-spacing: -0.18px;
+     font-size: 10px;
+     margin-bottom: 14px;
+ }
+ .main-map-view.map-view-list .content-section .brand-logo {
+     position: absolute;
+     left: -60px;
+     top: 43px;
+ }
+ 
+ .main-map-view.map-view-list .content-section .content {
+      padding: 15px 14px 5px 55px;
+ }
+
+.map-view-list.main-map-view .map-left-view .image-section img {
+     object-fit: cover;
+     width: 100%;
+     display: flex;
+     left: -5px;
+     position: relative;
+     height: 100%;
+ }
+
+ .main-map-view.map-view-list .svg-icon {
+     position: absolute;
+     right: 30px;
+ }
+
+ .border-bottom {
+     height: 62px;
+     background: #1D4354;
+     width: 100%;
+     bottom: 0px;
+     left:0px;
+     right: 0px;
+ }
+
+ .svg-icon {
+     cursor: pointer;
+ }
+
+ .brand-logo img {
+     background: #fff;
+     border-radius: 100%;
+ }
+
+@media only screen and (max-width: 991px) {
+    .map-view-list .container {
+        padding: 0px 20px;
+    } 
+    .brand-logo img {
+        max-width: 73%;
+    }
+    .main-map-view.map-view-list .content-section .brand-logo {
+        left: -50px;
+        top: 30px;
+    }
+    .main-map-view.map-view-list .content-section .location {
+        margin-bottom: 6px;
+    }
+    .main-map-view.map-view-list .content-section p.description {
+        margin-bottom: 5px;
+    }
+    .main-map-view.map-view-list .content-section .company-name {
+        margin-bottom: 6px
+    }
+    .main-map-view.map-view-list .content-section h2 {
+        margin-bottom: 3px;
+    }
+    .main-map-view.map-view-list .content-section .content {
+        padding: 15px 14px 5px 40px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-map-view.map-view-list .map-left-view .image-content .image-section {
+        height: 200px;
+    }
+    .map-view-list .brand-logo img {
+        max-width: 78% ;
+    }
+    .main-map-view.map-view-list .map-left-view {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 543px) {
+    .map-view-list .container {
+        padding: 0px 10px;
+    }
+    .map-view-list .brand-logo img {
+        max-width: 66%;
+    }
+    .main-map-view.map-view-list .content-section .brand-logo {
+        left: -40px;
+        top: 44px;
+    }
+    .main-map-view.map-view-list .map-left-view .image-content .image-section {
+        height: 170px;
+    }
+    .main-map-view.map-view-list .content-section .content {
+        padding: 15px 8px 5px 35px;
+    }
+    .main-map-view.map-view-list .svg-icon {
+        right: 8px;
+    }
+    .ant-modal-root .ant-modal-close-x {
+        left: 0px !important;
+        top: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .map-view-list .brand-logo img {
+        max-width: 60%;
+    }
+    .main-map-view.map-view-list .content-section .brand-logo {
+        left: -40px;
+        top: 54px;
+    }
+    .main-map-view.map-view-list .content-section .content {
+        padding: 15px 8px 5px 25px;
+    }
+}

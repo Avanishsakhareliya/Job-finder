@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.jobapplication-section {
+    padding-bottom: 130px;
+}
+
+.jobapplication-section .container {
+    padding: 0px 47px;
+}
+
+.jobapplication-section .jobapplication-wrapper {
+    max-width: 1111px;
+    margin: 0px auto;
+}
+
+.left-part {
+    display: flex;
+    align-items: center;
+}
+
+.left-part img {
+    margin-right: 22px;
+}
+
+.jobapplication-section .jobapplication-inner {
+    background: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 26px 40px;
+    height: 226px;
+}
+
+.jobapplication-wrapper .jobapplication-item:last-child {
+    border-bottom: 0px;
+}
+
+.jobapplication-wrapper h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    color: #1D4354;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    letter-spacing: -0.3px;
+}
+
+.jobapplication-wrapper .jobapplication-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #C1C1C1;
+    padding-bottom: 13px;
+    padding-top: 13px;
+}
+
+.jobapplication-wrapper .right-part {
+    display: flex;
+    align-items: center;
+}
+
+.jobapplication-wrapper .name, .jobapplication-wrapper .right-part .no {
+    color: #1D4354;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18.29px;
+    letter-spacing: -0.3px;
+}
+
+.jobapplication-wrapper .jobapplication-section {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    .jobapplication-section .container {
+        padding: 0px 20px;
+    }
+    .jobapplication-section .jobapplication-inner {
+        padding: 26px 20px;
+    }
+    .left-part img {
+        margin-right: 10px;
+        width: 70%;
+    }
+    .jobapplication-section {
+        padding-bottom: 60px;
+    }
+    .notificationsetting-section .setting-name, .notificationsetting-section .setting-field .field-item label {
+        font-size: 14px;
+    }
+}

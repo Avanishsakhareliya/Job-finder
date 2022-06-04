@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+.message-section {
+    padding: 0px 38px;
+}
+
+.message-section .message-left-part {
+    width: 36%;
+}
+
+.message-section .message-left-part .message-field {
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.message-section .message-left-part .message-field .message-icon, .message-right-part .profile-message {
+    width: 67px;
+    height: 67px;
+    margin-right: 10px;
+}
+
+.message-section .message-left-part .message-field .message-content {
+    flex: 1;
+}
+
+.message-section .message-left-part .message-field h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1D4354;
+    margin-bottom: 6px;
+}
+
+.message-section .message-left-part .message-field .sub-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1D4354;
+    margin-bottom: 4px;
+}
+
+.message-section .message-left-part .message-field .time {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message-section .message-left-part .message-field .desc {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message-section .message-right-part {
+    width: calc(64% - 20px);
+    margin-left: 20px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 14px 30px;
+}
+
+.message-section .message-right-part .message-right-content h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: #1D4354;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 6px;
+}
+
+.message-section .message-right-content {
+    flex: 1;
+}
+
+.message-section .message-right-part .row {
+    align-items: center;
+}
+
+.message-section .chat-details {
+    position: relative;
+    padding: 0px 30px; 
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-section .chat-details-inner {
+    margin-bottom: auto;
+}
+
+.message-section .message-right-part .message-right-content p {
+    letter-spacing: -0.3px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1D4354;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.message-section .message-right-part .chat-details .chat-field {
+    margin-top: 33px;
+    display: flex;
+}
+
+.message-section .message-right-part .chats {
+    flex: 1;
+    border-bottom: 1px solid #1D4354;
+    border-top: 1px solid #1D4354;
+    margin: 10px 20px;
+}
+
+.message-section .bottom-section {
+    display: flex;
+    align-items: center;
+}
+
+.message-section .bottom-section input {
+    background: #E7E7E7;
+    border: none;
+    outline: none;
+    flex: 1;
+    border-radius: 20px;
+    margin-right: 8px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #A2A2A2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    padding: 0px 20px;
+}
+
+.message-section .bottom-section .send-button a {
+    background: #1D4354;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-section .message-left-part-inner {
+    height: 770px;
+    overflow-y: scroll;
+    padding-right: 20px;    
+}
+
+.message-section .message-left-part-inner::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #BDBDBD;
+	border-radius: 10px;
+	background-color: #E0E0E0;
+}
+
+.message-section .message-left-part-inner::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #E0E0E0;
+}
+
+.message-section .message-left-part-inner::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #BDBDBD;
+	background-color: #BDBDBD;
+}
+
+@media only screen and (max-width: 767px) { 
+    .message-section {
+        padding: 0px;
+    }
+    .message-section .message-left-part, .message-section  .message-right-part {
+        width: 100%;
+        margin: 0px;
+    }
+    .message-section .message-left-part-inner {
+        padding-right: 10px;
+    }
+    .message-section .chat-details {
+        padding: 0px;
+    }
+    .message-section .message-right-part {
+        padding: 14px 20px;
+    }
+    .message-section .message-right-part .message-right-content h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .message-section .message-right-part .message-right-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .message-right-part .profile-message {
+        width: 60px;
+        height: 60px;
+        margin-right: 3px;
+    }
+    .message-section .message-left-part .message-field {
+        flex-wrap: wrap;
+    }
+    .message-section .message-left-part .message-field .message-content {
+        flex: 1 1 100%;
+    }
+    .message-section .message-right-part {
+        margin: 30px 0px;
+    }
+    .message-section .message-left-part-inner::-webkit-scrollbar
+    {
+        width: 6px;
+        background-color: #E0E0E0;
+    }
+    .message-section .chat-details {
+        min-height: auto;
+    }
+    .message-section .bottom-section input {
+        width: 80%;
+    }
+    .message-section .bottom-section {
+        margin-top: 20px;
+    }
+}

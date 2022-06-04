@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+.notificationsetting-section .container {
+    padding: 0px 47px;
+}
+
+.notificationsetting-section .notificationsetting-wrapper {
+    max-width: 1111px;
+    margin: 0px auto;
+    padding-bottom: 80px;
+}
+
+.notificationsetting-section .notificationsetting-inner {
+    background: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 26px 40px;
+    height: 289px;
+}
+
+.notificationsetting-section .setting-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.notificationsetting-section .setting-field .field-item input {
+    margin-right: 10px;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.notificationsetting-section .notificationsetting-item .setting-field {
+    display: flex;
+    align-items: center;
+}
+
+.notificationsetting-section .notificationsetting-item .left-part {
+    width: 40%;
+}
+
+.notificationsetting-section .field-item {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.notificationsetting-section .setting-name, .notificationsetting-section .setting-field .field-item label {
+    color: #1D4354;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 18.29px;
+    letter-spacing: -0.3px;
+}
+
+.setting-field .field-item label {
+    cursor: pointer;
+}
+
+.notificationsetting-section .setting-field .field-item:first-of-type input {
+    background: #B3CBE2;
+}
+
+@media only screen and (max-width: 767px) {
+    .notificationsetting-section .container {
+        padding: 0px 20px;
+    }
+    .notificationsetting-section .notificationsetting-inner {
+        padding: 26px 20px;
+    }
+
+    .notificationsetting-section .notificationsetting-item .setting-field {
+        flex-wrap: wrap;
+    }
+
+    .notificationsetting-section .notificationsetting-item .left-part {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .notificationsetting-section .field-item {
+        width: 39%;
+        display: flex;
+        align-items: center;
+        padding-left: 32px;
+    }
+    .notificationsetting-section .notificationsetting-inner {
+        height: auto;
+    }
+    .notificationsetting-section .setting-field .field-item input {
+        width: 14px;
+        height: 14px;
+    }
+    .notificationsetting-section .notificationsetting-wrapper {
+        padding-bottom: 60px;
+    }
+}
